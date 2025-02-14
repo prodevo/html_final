@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CherryCraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <nav>
+            <ul class="burger">
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#products">Продукція</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="big">
+        <h2>Справжні копчені делікатеси з Мелітополя</h2>
+        <p>Ручна робота, натуральні інгредієнти та унікальний смак</p>
+        <a href="#products" class="button">Переглянути продукцію</a>
+    </section>
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>CherryCraft - це сімейний бізнес родом з Мелітополя.</p>
+        <img src="images/smoking_meat.jpg" id="pro_nas">
+    </section>
+
+    <section id="products">
+        <h2>Наша продукція</h2>
+        <div class="products">
+            <div class="product">
+                <img src="images/meat1.jpg">
+                <h3>Рулет з паприкою</h3>
+                <p>Рулет свинячий з паприкою, часником.</p>
+            </div>
+            <div class="product">
+                <img src="images/meat2.jpg">
+                <h3>Набір Під ялинку</h3>
+                <p>Ковбаса Дрогобицька, балик, шинка.</p>
+            </div>
+            <div class="product">
+                <img src="images/meat3.jpg">
+                <h3>Набір Великодній</h3>
+                <p>Ручна робота, гаряче копчення, традиційний смак.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <h2>Як ми працюємо</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SxP89dh1juw?si=OmVJdnmJzO6on2sh" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Зв'яжіться з нами</h2>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Надіслати</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CherryCraft. Усі права захищені.</p>
+        <nav class="footer-burger">
+            <ul>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#products">Продукція</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
