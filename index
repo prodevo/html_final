@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,7 @@
     <section id="about">
         <h2>Про нас</h2>
         <p>CherryCraft - це сімейний бізнес родом з Мелітополя.</p>
-        <img src="images/smoking_meat.jpg" id="pro_nas">
+        <img src="images/meat.jpg" id="pro_nas">
     </section>
 
     <section id="products">
@@ -67,7 +67,7 @@
     <section id="contact">
         <h2>Зв'яжіться з нами</h2>
         <form>
-            <label for="name">Ім'я: </label>
+            <label for="name">Ім'я:</label>
             <input type="text" id="name" name="name" required>
 
             <label for="email">Email:</label>
